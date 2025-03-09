@@ -24,3 +24,13 @@ Technologies Used
 ->Python, Pandas, NumPy – Data manipulation and analysis.
 -> Matplotlib, Seaborn – Data visualization.
 -> Scikit-learn – Data preprocessing (Label Encoding).
+
+
+This code also analyses air quality data through visualizations and preprocessing techniques.
+
+Key Steps include:
+Histograms to show pollutant distributions (PM2.5, PM10, NO2, CO, O3, SO2, etc.).
+Box plots to detect outliers, with the IQR method applied for outlier removal.
+Missing values replaced with column means, and AQI_Bucket is dropped.
+Correlation matrix and heatmap to analyze relationships between pollutants.
+City-wise analysis using categorical plots to compare pollution levels.
